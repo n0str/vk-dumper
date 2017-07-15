@@ -11,11 +11,11 @@ You can see access token in your browser's address field after #.
 5. Copy access token to the beginning of the script.
 6. Run `python main.py`
 7. Don't forget to export results with : 
-`mongoexport --db vk --collection messages  --out messages.json`
-`mongoexport --db vk --collection users  --out users.json`
-`mongoexport --db vk --collection docs  --out docs.json`
-`mongoexport --db vk --collection photos  --out photos.json`
-`mongoexport --db vk --collection links  --out links.json`
+- `mongoexport --db vk --collection messages  --out messages.json`
+- `mongoexport --db vk --collection users  --out users.json`
+- `mongoexport --db vk --collection docs  --out docs.json`
+- `mongoexport --db vk --collection photos  --out photos.json`
+- `mongoexport --db vk --collection links  --out links.json`
 
 Enjoy.
 
