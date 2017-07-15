@@ -1,3 +1,5 @@
+# General
+
 Script dumps all your VK messages. It is so dummy, that's why you have to perform some preparations to use it.
 
 1. Install python3 with 'requests' module. Or run `pip install -r requirements.txt`
@@ -16,3 +18,7 @@ You can see access token in your browser's address field after #.
 `mongoexport --db vk --collection links  --out links.json`
 
 Enjoy.
+
+# Setup
+
+Change hardcoded parameter out=1 to out=0 if you wanna get incoming messages.
